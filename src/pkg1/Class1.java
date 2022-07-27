@@ -25,6 +25,8 @@ public class Class1 {
 		searchContact.sendKeys("Software Testers");
 		driver.findElement(By.xpath("(//div[@class='_3OvU8'])[1]")).click();
 
+	// ASK
+		
 	    WebElement typeMsg = driver.findElement(By.xpath("//p[@class='selectable-text copyable-text']"));
 	    typeMsg.click();
 	    Thread.sleep(3000);
